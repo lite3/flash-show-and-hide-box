@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flash Show And Hide Box\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-10 10:18+0800\n"
+"PO-Revision-Date: 2013-08-10 10:19+0800\n"
+"Last-Translator: lite3 <lite3@qq.com>\n"
+"Language-Team: lite3 <lite3@qq.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: flash-show-and-hide-box.php:47
+msgid "Clike To Show Flash"
+msgstr "点击显示Flash"
+
+#: flash-show-and-hide-box.php:48
+msgid "Clike To Hide Flash"
+msgstr "点击隐藏Flash"
+
+#: flash-show-and-hide-box.php:101
+msgid "Settings"
+msgstr "设置"
+
+#: flash-show-and-hide-box.php:219
+msgid "Flash Show And Hide Box Options"
+msgstr "Flash Show And Hide Box 选项"
+
+#: flash-show-and-hide-box.php:224
+msgid "Donation"
+msgstr "资助鼓励"
+
+#: flash-show-and-hide-box.php:226
+msgid ""
+"If you like this plugin, please donate to support development and "
+"maintenance!"
+msgstr ""
+"如果你认为我做的这些对你来说是有价值的，并鼓励我进行更多开源和免费的开发。那"
+"你可以资助我，就算是一杯咖啡…"
+
+#: flash-show-and-hide-box.php:227
+msgid "Donate by alipay"
+msgstr "通过支付宝资助"
+
+#: flash-show-and-hide-box.php:233
+msgid "About Author"
+msgstr "关于作者"
+
+#: flash-show-and-hide-box.php:236
+msgid "Author Blog"
+msgstr "作者的博客"
+
+#: flash-show-and-hide-box.php:237
+msgid "More Plugins"
+msgstr "更多插件"
+
+#: flash-show-and-hide-box.php:250
+msgid "Flash displayed at home page"
+msgstr "首页显示Flash"
+
+#: flash-show-and-hide-box.php:254
+msgid ""
+"Flash will be displayed on the home page. If your Flash will not be "
+"displayed on the home page, do not choose this option."
+msgstr "Flash 将会显示在首页。如果您的Flash不会显示在首页，请不要选择该选项。"
+
+#: flash-show-and-hide-box.php:259
+msgid "Active UBB code"
+msgstr "激活UBB代码"
+
+#: flash-show-and-hide-box.php:263
+msgid "Use UBB code embedded Flash will be displayed."
+msgstr "使用UBB 代码嵌入的flash将被显示"
+
+#: flash-show-and-hide-box.php:268
+msgid "The Text when flash is showing"
+msgstr "当flash已经显示的时候显示的文字"
+
+#: flash-show-and-hide-box.php:276
+msgid "The Text when flash is hiding"
+msgstr "当flash没有显示的时候显示的文字"
+
+#: flash-show-and-hide-box.php:287
+msgid "Update Options"
+msgstr "更新选项"
+
+#: flash-show-and-hide-box.php:288
+msgid "Reset Settings to Defaults"
+msgstr "重置选项"
+
+#~ msgid "jQurey Library"
+#~ msgstr "jQurey 类库"
+
+#~ msgid ""
+#~ "Load jQuery library that is supported by WordPress. If you already loaded "
+#~ "jQuery at head, then do not select this option."
+#~ msgstr ""
+#~ "加载WordPress的jQuery库。如果你已经在head的其他js文件里包含了jQuery库，那"
+#~ "么这里可以不选择。"
+
+#~ msgid "SWFObject Library"
+#~ msgstr "SWFObject 库"
+
+#~ msgid ""
+#~ "Load SWFObject library that is supported by WordPress. If you already "
+#~ "loaded SWFObject at head, then do not select this option."
+#~ msgstr ""
+#~ "加载WordPress的SWFObject库。如果你已经在head的其他js文件里包含了SWFObject"
+#~ "库，那么这里可以不选择。"
+
+#~ msgid "Flash Show And Hide Box Library"
+#~ msgstr "Flash Show And Hide Box 库"
+
+#~ msgid ""
+#~ "Load Flash Show And Hide Box library. If you already copy the showflash."
+#~ "js file for this plugin to other js file for head, then do not select "
+#~ "this option."
+#~ msgstr ""
+#~ "加载Flash Show And Hide Box库。如果你已经复制该插件的showflash.js文件到"
+#~ "head的其他js文件里，那么这里可以不选择。"
+
+#~ msgid "Save Changes"
+#~ msgstr "保存修改"
