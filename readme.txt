@@ -3,8 +3,8 @@ Contributors: lite3
 Donate link: https://me.alipay.com/lite3
 Tags: flash, swf, show, hide, plugin
 Requires at least: 3.0.0
-Tested up to: 3.9.1
-Stable tag: 1.4.1
+Tested up to: 4.0
+Stable tag: 1.4.1.1
 
 Flash Show And Hide Box lets we very convenient embed flash, and control it show and hide.
 
@@ -76,6 +76,8 @@ Arguments:
 	[flash=600,170]myflash.swf[/flash]
 
 == Changelog ==
+= 1.4.1.1 =
+* Tested up to: 4.0
 = 1.4.1 =
 * Tested up to: 3.9.1
 = 1.4 =

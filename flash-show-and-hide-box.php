@@ -6,7 +6,7 @@
 Plugin Name: Flash Show And Hide Box
 Plugin URI: http://www.litefeel.com/flash-show-and-hide-box/
 Description: Flash Show And Hide Box lets we very convenient embed flash, and control it show and hide.
-Version: 1.4.1
+Version: 1.4.1.1
 Author: lite3
 Author URI: http://www.litefeel.com/
 
