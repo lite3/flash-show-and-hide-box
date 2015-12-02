@@ -6,7 +6,7 @@
 Plugin Name: Flash Show And Hide Box
 Plugin URI: http://www.litefeel.com/flash-show-and-hide-box/
 Description: Flash Show And Hide Box lets we very convenient embed flash, and control it show and hide.
-Version: 1.4.1.1
+Version: 1.4.2
 Author: lite3
 Author URI: http://www.litefeel.com/
 
@@ -19,6 +19,8 @@ http://www.gnu.org/licenses/gpl.txt
 /* ------------------------------------------------------------ */
 if(!class_exists('FlashShowAndHideBox')) {
 class FlashShowAndHideBox {
+
+	var $version = '1.4.2';
 	
 	function FlashShowAndHideBox() {
 		add_action('init', array(&$this,'flash_init'));
@@ -84,8 +86,10 @@ class FlashShowAndHideBox {
 		if($options['load_js_at_front_page'] || !is_front_page()) {
 			$swfurl = plugins_url('swf/expressInstall.swf', __FILE__);
 			$iconurl = plugins_url('img/flash_icon.gif', __FILE__);
-			$showing_state_text = $options['flash_showing_state_text'];
-			$hiding_state_text = $options['flash_hiding_state_text'];
+			$showing_state_text = isset($options['flash_showing_state_text']) ? 
+									$options['flash_showing_state_text'] : '';
+			$hiding_state_text = isset($options['flash_hiding_state_text']) ? 
+									$options['flash_hiding_state_text'] : '';
 
 			$output = "<script type='text/javascript'>\n" .
 						"window.showFlashExpressInstallSWFURL = '$swfurl';\n" .
@@ -99,7 +103,7 @@ class FlashShowAndHideBox {
 	function load_staitc(){
 		$options = get_option('commentsAvatarLazyload_options');
 		if($options['load_js_at_front_page'] || !is_front_page()) {
-			wp_enqueue_script('showFlashLib',  plugins_url('js/showflash.js', __FILE__), array('jquery','swfobject'), $options['js_modify_time']);
+			wp_enqueue_script('showFlashLib',  plugins_url('js/showflash.js', __FILE__), array('jquery','swfobject'), $this->version);
 
 		}
 	}
