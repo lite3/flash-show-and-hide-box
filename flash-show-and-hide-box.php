@@ -22,7 +22,7 @@ class FlashShowAndHideBox {
 
 	var $version = '1.4.2';
 	
-	function FlashShowAndHideBox() {
+	function __construct() {
 		add_action('init', array(&$this,'flash_init'));
 	}
 	
