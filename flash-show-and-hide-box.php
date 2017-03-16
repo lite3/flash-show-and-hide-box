@@ -4,15 +4,13 @@
  */
 /*
 Plugin Name: Flash Show And Hide Box
-Plugin URI: http://www.litefeel.com/flash-show-and-hide-box/
+Plugin URI: https://www.litefeel.com/flash-show-and-hide-box/
 Description: Flash Show And Hide Box lets we very convenient embed flash, and control it show and hide.
 Version: 1.4.2.1
 Author: lite3
-Author URI: http://www.litefeel.com/
-
-Copyright (c) 2011
-Released under the GPL license
-http://www.gnu.org/licenses/gpl.txt
+Author URI: https://www.litefeel.com/
+License: GPLv2 or later
+Text Domain: flash-show-and-hide-box
 */
 
 /* options */
@@ -30,8 +28,8 @@ class FlashShowAndHideBox {
 		$options = array();
 		$options['active_ubb'] = true;
 		$options['load_js_at_front_page']	= true;
-		$options['flash_hiding_state_text']	= __('Clike To Show Flash', 'flashshowandhidebox');
-		$options['flash_showing_state_text']	= __('Clike To Hide Flash', 'flashshowandhidebox');
+		$options['flash_hiding_state_text']	= __('Clike To Show Flash', 'flash-show-and-hide-box');
+		$options['flash_showing_state_text']	= __('Clike To Hide Flash', 'flash-show-and-hide-box');
 		return $options;
 	}
 	
@@ -55,7 +53,7 @@ class FlashShowAndHideBox {
 	}
 	
 	function flash_init(){
-		load_plugin_textdomain( 'flashshowandhidebox', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/');
+		load_plugin_textdomain( 'flash-show-and-hide-box' );
 		
 		$options = $this->getOptions();
 		
@@ -74,7 +72,7 @@ class FlashShowAndHideBox {
 	function plugin_action_links( $links, $file ) {
 		if ( $file != plugin_basename( __FILE__ )) return $links;
 
-		$settings_link = '<a href="options-general.php?page=flash-show-and-hide-box/flash-show-and-hide-box.php">' . __( 'Settings', 'flashshowandhidebox' ) . '</a>';
+		$settings_link = '<a href="options-general.php?page=flash-show-and-hide-box/flash-show-and-hide-box.php">' . __( 'Settings', 'flash-show-and-hide-box' ) . '</a>';
 
 		array_push( $links, $settings_link );
 
@@ -159,25 +157,25 @@ class FlashShowAndHideBox {
 
 <div class="wrap">
 	<div class="icon32" id="icon-options-general"><br /></div>
-	<h2><?php _e('Flash Show And Hide Box Options', 'flashshowandhidebox'); ?></h2>
+	<h2><?php _e('Flash Show And Hide Box Options', 'flash-show-and-hide-box'); ?></h2>
 
 	<div id="poststuff" class="has-right-sidebar">
 		<div class="inner-sidebar">
 			<div id="donate" class="postbox" style="border:2px solid #080;">
-				<h3 class="hndle" style="color:#080;cursor:default;"><?php _e('Donation', 'flashshowandhidebox'); ?></h3>
+				<h3 class="hndle" style="color:#080;cursor:default;"><?php _e('Donation', 'flash-show-and-hide-box'); ?></h3>
 				<div class="inside">
-					<p><?php _e('If you like this plugin, please donate to support development and maintenance!', 'flashshowandhidebox'); ?>
-					<br /><br /><strong><a href="https://me.alipay.com/lite3" target="_blank"><?php _e('Donate by alipay', 'flashshowandhidebox'); ?></a></strong><style>#donate form{display:none;}</style>
+					<p><?php _e('If you like this plugin, please donate to support development and maintenance!', 'flash-show-and-hide-box'); ?>
+					<br /><br /><strong><a href="https://me.alipay.com/lite3" target="_blank"><?php _e('Donate by alipay', 'flash-show-and-hide-box'); ?></a></strong><style>#donate form{display:none;}</style>
 					</p>
 				</div>
 			</div>
 
 			<div class="postbox">
-				<h3 class="hndle" style="cursor:default;"><?php _e('About Author', 'flashshowandhidebox'); ?></h3>
+				<h3 class="hndle" style="cursor:default;"><?php _e('About Author', 'flash-show-and-hide-box'); ?></h3>
 				<div class="inside">
 					<ul>
-						<li><a href="http://www.litefeel.com/" target="_blank"><?php _e('Author Blog', 'flashshowandhidebox'); ?></a></li>
-						<li><a href="http://www.litefeel.com/plugins/" target="_blank"><?php _e('More Plugins', 'flashshowandhidebox'); ?></a></li>
+						<li><a href="http://www.litefeel.com/" target="_blank"><?php _e('Author Blog', 'flash-show-and-hide-box'); ?></a></li>
+						<li><a href="http://www.litefeel.com/plugins/" target="_blank"><?php _e('More Plugins', 'flash-show-and-hide-box'); ?></a></li>
 					</ul>
 				</div>					
 			</div>
@@ -190,25 +188,25 @@ class FlashShowAndHideBox {
 		<table class="form-table">
 			<tbody>
 				<tr valign="top">
-					<th scope="row"><?php _e('Flash displayed at home page', 'flashshowandhidebox'); ?></th>
+					<th scope="row"><?php _e('Flash displayed at home page', 'flash-show-and-hide-box'); ?></th>
 					<td>
 						<label>
 							<input name="load_js_at_front_page" type="checkbox" <?php if($options['load_js_at_front_page']) echo 'checked="checked"'; ?> />
-							 <?php _e('Flash will be displayed on the home page. If your Flash will not be displayed on the home page, do not choose this option.', 'flashshowandhidebox'); ?>
+							 <?php _e('Flash will be displayed on the home page. If your Flash will not be displayed on the home page, do not choose this option.', 'flash-show-and-hide-box'); ?>
 						</label>
 					</td>
 				</tr>
 				<tr valign="top">
-					<th scope="row"><?php _e('Active UBB code', 'flashshowandhidebox'); ?></th>
+					<th scope="row"><?php _e('Active UBB code', 'flash-show-and-hide-box'); ?></th>
 					<td>
 						<label>
 							<input name="active_ubb" type="checkbox" <?php if($options['active_ubb']) echo 'checked="checked"'; ?> />
-							 <?php _e('Use UBB code embedded Flash will be displayed.', 'flashshowandhidebox'); ?>
+							 <?php _e('Use UBB code embedded Flash will be displayed.', 'flash-show-and-hide-box'); ?>
 						</label>
 					</td>
 				</tr>
 				<tr valign="top">
-					<th scope="row"><?php _e('The Text when flash is showing', 'flashshowandhidebox'); ?></th>
+					<th scope="row"><?php _e('The Text when flash is showing', 'flash-show-and-hide-box'); ?></th>
 					<td>
 						<label>
 							<input name="flash_showing_state_text" type="input" value="<?php echo $options['flash_showing_state_text']; ?>" style="width:400px;"/>
@@ -216,7 +214,7 @@ class FlashShowAndHideBox {
 					</td>
 				</tr>
 				<tr valign="top">
-					<th scope="row"><?php _e('The Text when flash is hiding', 'flashshowandhidebox'); ?></th>
+					<th scope="row"><?php _e('The Text when flash is hiding', 'flash-show-and-hide-box'); ?></th>
 					<td>
 						<label>
 							<input name="flash_hiding_state_text" type="input" value="<?php echo $options['flash_hiding_state_text']; ?>" style="width:400px;"/>
@@ -227,8 +225,8 @@ class FlashShowAndHideBox {
 		</table>
 
 		<p class="submit">
-		<input class="button-primary" type="submit" name="flashshowandhidebox_save" value="<?php _e('Update Options', 'flashshowandhidebox'); ?>" />
-		<input class="button-primary" type="submit" name="flashshowandhidebox_reset" value="<?php _e('Reset Settings to Defaults', 'flashshowandhidebox'); ?>" />
+		<input class="button-primary" type="submit" name="flashshowandhidebox_save" value="<?php _e('Update Options', 'flash-show-and-hide-box'); ?>" />
+		<input class="button-primary" type="submit" name="flashshowandhidebox_reset" value="<?php _e('Reset Settings to Defaults', 'flash-show-and-hide-box'); ?>" />
 		</p>
 </form>
 			</div>
