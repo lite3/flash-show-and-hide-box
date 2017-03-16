@@ -165,7 +165,7 @@ class FlashShowAndHideBox {
 				<h3 class="hndle" style="color:#080;cursor:default;"><?php _e('Donation', 'flash-show-and-hide-box'); ?></h3>
 				<div class="inside">
 					<p><?php _e('If you like this plugin, please donate to support development and maintenance!', 'flash-show-and-hide-box'); ?>
-					<br /><br /><strong><a href="https://me.alipay.com/lite3" target="_blank"><?php _e('Donate by alipay', 'flash-show-and-hide-box'); ?></a></strong><style>#donate form{display:none;}</style>
+					<br /><br /><strong><a href="https://www.paypal.me/litefeel" target="_blank"><?php _e('Donate by alipay', 'flash-show-and-hide-box'); ?></a></strong><style>#donate form{display:none;}</style>
 					</p>
 				</div>
 			</div>
@@ -174,8 +174,8 @@ class FlashShowAndHideBox {
 				<h3 class="hndle" style="cursor:default;"><?php _e('About Author', 'flash-show-and-hide-box'); ?></h3>
 				<div class="inside">
 					<ul>
-						<li><a href="http://www.litefeel.com/" target="_blank"><?php _e('Author Blog', 'flash-show-and-hide-box'); ?></a></li>
-						<li><a href="http://www.litefeel.com/plugins/" target="_blank"><?php _e('More Plugins', 'flash-show-and-hide-box'); ?></a></li>
+						<li><a href="https://www.litefeel.com/" target="_blank"><?php _e('Author Blog', 'flash-show-and-hide-box'); ?></a></li>
+						<li><a href="https://www.litefeel.com/plugins/" target="_blank"><?php _e('More Plugins', 'flash-show-and-hide-box'); ?></a></li>
 					</ul>
 				</div>					
 			</div>
