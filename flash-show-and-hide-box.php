@@ -7,7 +7,7 @@ Plugin Name: Flash Show And Hide Box
 Plugin URI: https://www.litefeel.com/flash-show-and-hide-box/
 Description: Flash Show And Hide Box lets we very convenient embed flash, and control it show and hide.
 Version: 1.5
-Author: lite3
+Author: litefeel
 Author URI: https://www.litefeel.com/
 License: GPLv2 or later
 Text Domain: flash-show-and-hide-box
@@ -165,7 +165,7 @@ class FlashShowAndHideBox {
 				<h3 class="hndle" style="color:#080;cursor:default;"><?php _e('Donation', 'flash-show-and-hide-box'); ?></h3>
 				<div class="inside">
 					<p><?php _e('If you like this plugin, please donate to support development and maintenance!', 'flash-show-and-hide-box'); ?>
-					<br /><br /><strong><a href="https://www.paypal.me/litefeel" target="_blank"><?php _e('Donate by alipay', 'flash-show-and-hide-box'); ?></a></strong><style>#donate form{display:none;}</style>
+					<br /><br /><strong><a href="https://www.paypal.me/litefeel" target="_blank"><?php _e('Donate by paypal.me', 'flash-show-and-hide-box'); ?></a></strong><style>#donate form{display:none;}</style>
 					</p>
 				</div>
 			</div>

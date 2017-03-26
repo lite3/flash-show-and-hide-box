@@ -1,6 +1,6 @@
 # Flash Show And Hide Box #
 
-**Contributors:** lite3  
+**Contributors:** litefeel  
 **Tags:** flash, swf, show, hide, plugin  
 **Donate Link:** https://www.paypal.me/litefeel  
 **Requires at least:** 3.0.0  

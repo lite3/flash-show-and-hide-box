@@ -1,5 +1,9 @@
 ## Change Log ##
 
+### [1.6][1.6] ###
+
+* Transfer ownership
+
 ### [1.5][1.5] ###
 
 * Added: Join translate.wordpress.org
@@ -56,6 +60,7 @@
 
 
 
+[1.6]: https://github.com/litefeel/flash-show-and-hide-box/releases/tag/1.6
 [1.5]: https://github.com/litefeel/flash-show-and-hide-box/releases/tag/1.5
 [1.4.2.1]: https://github.com/litefeel/flash-show-and-hide-box/releases/tag/1.4.2.1
 [1.4.2]: https://github.com/litefeel/flash-show-and-hide-box/releases/tag/1.4.2
